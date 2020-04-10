@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" href="images/game-controller.png" type="image/gif" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css2?family=Caladea&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Top 10 Video games to play in 2020!</title>
+  </head>
+  <body>
+    <!-- Image and text -->
+  <nav id="mainNavbar" class="navbar fixed-top">
+    <a class="navbar-brand" href="#">
+      <img id="navbarIcon" src="images/game-controller.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <img id="navbarIcon2" src="images/gamepad.png" width="30" height="30" class="d-inline-block align-top hidden" alt="">
+      <span style="padding-left: 35px;">WhiteRose</span>
+    </a>
+  </nav>
+
+  <div style="text-align: center; padding-top: 50px;">
+    <a href="https://elements.envato.com/lp/design/?adposition=none&gclid=EAIaIQobChMIoujF_83V6AIVF4VoCh3NogksEAEYASAAEgI_K_D_BwE" style="padding-right: 10px;">
+        <img class="img-fluid" src="https://tpc.googlesyndication.com/simgad/17566016470595348152?sqp=4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKdPg&rs=AOga4qlh9DLJPmsJ-ep-sOO30o-hL72Qgw" >
+    </a>
+    <a href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstsfUCjdVA5emi_lWsbvAd5DEHtQIcX97VPeTE0-d6bBaRI73YPGq7z8ukvQvnNQEsNk7embgqzibPFVdfmUfO_8cFacNHIoNOQPt1-BONYH-Sy9myM24KZskgCK1isKl2MOrJ_nL5nGnGSmEYm58eIJS8OZj_UNt7RQ00eoudt1H1KrDltIA2TQbxfPyJ2E8TC2YaP5ohsTpsvEkk35hraIgf1JORVIcXJ_a0tFGB2GIMYEYDOyNuNtdVxBwz7GlJmr3IsRp2YSC6erpVcj4VrmaJmsjGRRCI8q5rTxnWV_yEeMedwdP9MOgf-dPdrbl3SzxWYXZRMVOnCE_nXae9rqJnNdQJvEh8ERT6YEwGFMk-z60rj-rWgC0eZUJWJBIxK3duMZlYKZZ5ZfrpNFcjhuh6UbQHF9C-4O-e5YrqSI6hBj41L5c0gK_iOO_XEPSvp8JKqB_c1pC4nOOgR1zVANw535Oly4bu1ZcDOIYx5sslrCSJw5yeqCxc3BjMpeBYHZBVlwQfSVi2xoJS0wCZE7TB7s69T7e2FHJiZx1wPvQOhHu4f3zJpaEVRUPyNx-lzZnoURIulnrwhMpKLeBv5M198noG71cG54OY2QBb-sjJ7wcIxJDlMVXk13NZdA-8zk1CozxhTRYwpjx3t0WPDukpXR809XYYNU0gXoMFl2au4tYraYmsZ8FgqmNYj0n7nnCr2Mu92eAwtcqSvcEDNC9Vrn4Rs75IVPstDECnO-3QIqe3TCGSjCQeevBglUQt8_w6900C3I9e_cHqoUvKqB0kaXu96WtGg4e7F2RGREs7TZKIvuJTDQxQjyFegOLYNiDobf8jl7Wsm_2I0sS0pGpOn71yVae_vTip4od-RqohkzuSJQFMuaSoWY8UmHB7fxPCRHSkxL8fYfmTQELNuv19v_TUm4ckaanxpA6Vuc8APyhpSnMHE--dGKhCNqYyKGLj8KiLI9hcX3kPVa10rhhCjjt7MjBMAu76em9ib6tpM8WjaDdKf9GCzTM4WUk-MLs5uZTITQ8av2CPf6jVlWFDurU9lbBlwYyjt1aUFBGeQBrImMqndJ71YovFXp5EC5O8jgUliq8dIu5Bo9mWRqhDek_pfPUm_PsDu-Q&sai=AMfl-YTRwxcQ5lcmH7cByjXMJ9exTdooQ-8076PmFzbTekbly-9b5bS5bRoALlfVY-zYRnfxT357DBVEnK51A6WRMpILniubaM8evYzQxhy0r1YUP-6RtD1HHvA9gJr58Z6FE1D_1wRZnShSvpyWo5ApDDoNUikG-thZB0c5iJMBOFEmti_74QXDoVHAQVs7GVcf74BA75likrIFvZMJW24SAR9aIpktB_ZEF34ZoGOoGuSNjClYYTs0elllIG3PEFbdbDUvY8LqdizTbXoeUDKZxrqHDgJdavSnHNLOyALWVvUeOJJkCuTSrHmIHYAQihnkcR9o23tEHCuaSXF0VMc1lSE9mUrRRGgKTqY8mkbIE9aJdA&sig=Cg0ArKJSzEaGZX9Ny5Nu&urlfix=1&nx=145&ny=90&dim=300x250&adurl=https://business.linkedin.com/marketing-solutions/cx/18/02/linkedin-b2b-marketing-gdn-desktop%3Futm_source%3Ddisplay%26utm_medium%3Dcpm%26utm_content%3D116046944%26utm_term%3Dveh%3DLMS_DV360_22570770_116046944_245466198%26src%3Dgo-dp%26trk%3Dsem_lms_gaw%26mcid%3D6612427885674319937%26camid%3D22570770%26asid%3D441977860%26crid%3D116046944%26ends%3D1%26dclid%3D%25edclid!">
+        <img src="https://s0.2mdn.net/9294460/LMS_APAC_TOFU_Static_SG_OTIS_MemberstatbyCountry_300x250.jpg" >
+    </a>
+  </div>
+  <hr style="width: 95%;">
+  <p style="text-align: center;"><font size="1">Every product was carefully curated by an Esquire editor. We may earn a commission from these links.</font></p>
+  <hr style="width: 95%;">
+  <div class="container">
+    <!-- Content here -->
+    <h1 style="text-align: center;"><strong>10 Most Anticipated Video Games of 2020</strong></h1>
+    <hr>
+    <h6 style="text-align: center;">From The Last of Us Part II to Halo Infinite to Animal Crossing, these are the games we can't wait to blow hours playing.</h6>
+    <hr>  
+    <p style="text-align: center;"><font size="1"><strong>CREATED BY <u>NG YOU JUIN</u></strong></font></p>
+    <img style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/index-18-1576784461.jpg?crop=0.5xw:1xh;center,top&resize=980:*" alt="images of several games">
+    <br>
+    <div style="width: 75%; margin: auto;">
+        <p style="font-family: 'Caladea', serif;"><font size="5">Last year may not have gone down as one of the best years in gaming, but hey, at least we got Untitled Goose Game. The 2010s, however, represented a step forward for the industry, with titles like Legend of Zelda: Breath of the Wild, the Batman: Arkham series, and Last of Us. Now, we’re at the beginning of a new decade, and in a twilight year too. The console market is quickly shifting. Soon the PS4 and Xbox One will be booted to the trash heap, and we’ll wish them farewell while welcoming in a new, super-powered generation of machines. The Xbox Series X is bringing heavy-duty tech that rivals the power of even the strongest PC towers, and the PS5 seems just as formidable.</font></p>
+    </div>
+    <div class="row" style="width: 75%; margin: auto;">
+        <div class="col">
+            <hr style="border: 2px solid black; border-radius: 1px;">
+            <p><strong>: Related Stories</strong></p>
+            <!-- The Related Stories -->
+            <div class="row">
+                <div class = "col-5">
+                    <a href="https://www.esquire.com/lifestyle/g30730417/upcoming-nintendo-switch-games-2020/" target="_blank">
+                       <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/animal-lede-1580497682.jpg?crop=0.965xw:0.858xh;0,0.142xh&resize=300:*">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a style="display: inline;" href="https://www.esquire.com/lifestyle/g30730417/upcoming-nintendo-switch-games-2020/" target="_blank">
+                       <span style="color: black;"><strong><font size="4">Good Nintendo Switch Game Coming Out in 2020</font></strong></span>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class = "col-5">
+                    <a href="https://www.esquire.com/lifestyle/g30798786/upcoming-ps4-video-games-2020/" target="_blank">
+                       <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/keanu-1560181928.jpg?crop=1.00xw:0.892xh;0,0.0684xh&resize=300:*">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a style="display: inline;" href="https://www.esquire.com/lifestyle/g30798786/upcoming-ps4-video-games-2020/" target="_blank">
+                       <span style="color: black;"><strong><font size="4">Every Good PS4 Game coming Out in 2020</font></strong></span>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class = "col-5">
+                    <a href="https://www.esquire.com/lifestyle/g31214007/upcoming-xbox-one-games-2020/" target="_blank">
+                       <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/halo-indec-1583273542.jpg?crop=1.00xw:0.892xh;0,0&resize=300:*">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a style="display: inline;" href="blob:https://www.esquire.com/e748a56f-2682-4a8b-9204-272dcd42806c" target="_blank">
+                       <span style="color: black;"><strong><font size="4">All the Upcoming Xbox One Games for 2020</font></strong></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--End Of The Related Stories -->
+        <div class="col">
+            <p style="font-family: 'Caladea', serif;"><font size="5">But fret not, the old consoles are going out with a bang in terms of new games; and even if some of the following titles are geared towards the next gen, we’ll always have our Nintendo Switches. This year is stacked with games spanning all audiences, from plenty of action RPGs and first-person shooters, to some insanely narrative-driven titles, to some equally artful and wacky indie projects. A new Animal</font></p>
+        </div>
+    </div>
+    <div style="width: 75%; margin: auto;">
+        <p style="font-family: 'Caladea', serif;"><font size="5">Crossing (!!) and Halo prove that there will be impressive triple-A outtings, but don't forget that we’ll also be blessed by the divine god SkateBIRD.</font></p>
+        <p style="font-family: 'Caladea', serif;"><font size="5">The previous-gen console goodbye tour may be bittersweet, but 2020 looks like it’s going to be a good year. Even considering all the delays. And who knows, we could even get a Breath of the Wild 2.</font></p>
+    </div>
+    <div style="display: flex;flex-direction: column;align-items: center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tNEpyP4-XmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+        <span style="font-size: 10px; background-color: white; padding: 0 10px;">
+            ADVERTISEMENT-CONTINUE READING BELOW
+        </span>
+    </div>
+    <div class="d-flex justify-content-center" style="padding-top: 10px;">
+        <img src="https://allwebco-templates.com/support/picts/mobile-templates-responsive-adsense.jpg">
+    </div> 
+    <hr style="background-color: black;">
+
+    <div style="padding-top: 20px;">
+        <hr style="border: 2px solid black; border-radius: 1px;">
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <h1 style="text-align: center;"><strong>Iron Man VR</strong></h1>
+        <div class="d-flex justify-content-center">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/iron-man-vr-1576782014.jpeg?resize=768:*" class="img-fluid" alt="Responsive image">
+        </div>
+        <p style="color: lightgrey;">You Juin</p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Release Date:</strong> February 28</font></p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Platform:</strong> PSVR</font></p>
+        <a type="button" class="btn btn-outline-dark" href="https://www.amazon.com/Marvels-Iron-Man-VR-PlayStation-4/dp/B07YXQJ1S5?creativeASIN=B07YXQJ1S5&imprToken=04013dwNsZaJgfIX2zi4yw&slotNum=0&linkCode=ogi&tag=esquire_auto-append-20&ascsubtag=[artid%7C10054.a.30284795[src%7C[ch%7C[lt%7C" target="_blank">Buy</a>
+        <br>
+        <br>
+        <p style="font-family: 'Caladea', serif;"><font size="4">Everybody’s getting into VR games these days. Marvel has tried it a few times before, but Iron Man VR actually made some noise. The idea just feels right. With the helmet and two handheld devices, it’s as if VR was meant for Iron Man. —D.N.</font></p>
+    </div>
+    </div>
+
+    <div style="padding-top: 20px;">
+        <hr style="border: 2px solid black; border-radius: 1px;">
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <h1 style="text-align: center;"><strong>Animal Crossing: New Horizons</strong></h1>
+        <div class="d-flex justify-content-center">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/animal-1576782225.jpg?resize=768:*" class="img-fluid" alt="Responsive image">
+        </div>
+        <p style="color: lightgrey;">You Juin</p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Release Date:</strong> March 20</font></p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Platform:</strong> Nintendo Switch</font></p>
+        <a type="button" class="btn btn-outline-dark" href="https://aax-us-east.amazon-adsystem.com/x/c/QvcAoCu9BFdkOJLZVIGR6OwAAAFxVMGo6gEAAAFKAQilJL4/https://assoc-redirect.amazon.com/g/r/https://www.amazon.com/Animal-Crossing-New-Horizons-Nintendo-Switch/dp/B07SL6ZXBL?creativeASIN=B07SL6ZXBL&imprToken=04013dwNsZaJgfIX2zi4yw&slotNum=1&linkCode=ogi&tag=esquire_auto-append-20&ascsubtag=[artid|10054.a.30284795[src|[ch|[lt|" target="_blank">Buy</a>
+        <br>
+        <br>
+        <p style="font-family: 'Caladea', serif;"><font size="4">A new Animal Crossing! In 2020! For the Nintendo Switch! Gamers have rejoiced over this. It is a cultural revelation. It will inspire a new holiday, called National Gamer’s Day. Once a year, gamers will celebrate the glory that is Animal Crossing. —D.N.</font></p>
+    </div>
+    </div>
+
+    <div style="padding-top: 20px;">
+        <hr style="border: 2px solid black; border-radius: 1px;">
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <h1 style="text-align: center;"><strong>Doom Eternal</strong></h1>
+        <div class="d-flex justify-content-center">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/doom-1576782257.jpeg?resize=768:*" class="img-fluid" alt="Responsive image">
+        </div>
+        <p style="color: lightgrey;">You Juin</p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Release Date:</strong> March 20</font></p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Platform:</strong> PS4, Xbox One, PC, Nintendo Switch</font></p>
+        <a type="button" class="btn btn-outline-dark" href="https://aax-us-east.amazon-adsystem.com/x/c/QvcAoCu9BFdkOJLZVIGR6OwAAAFxVMGo6gEAAAFKAQilJL4/https://assoc-redirect.amazon.com/g/r/https://www.amazon.com/Animal-Crossing-New-Horizons-Nintendo-Switch/dp/B07SL6ZXBL?creativeASIN=B07SL6ZXBL&imprToken=04013dwNsZaJgfIX2zi4yw&slotNum=1&linkCode=ogi&tag=esquire_auto-append-20&ascsubtag=[artid|10054.a.30284795[src|[ch|[lt|" target="_blank">Buy</a>
+        <br>
+        <br>
+        <p style="font-family: 'Caladea', serif;"><font size="4">I don’t know how many times the world needs to be saved from demons, but apparently the infestation still has not stopped. Luckily this one is a direct sequel to the very fun Doom reboot from 2016. So it’ll be a hell of a good time (sorry).  —D.N.</font></p>
+    </div>
+    </div>
+
+    <div style="padding-top: 20px;">
+        <hr style="border: 2px solid black; border-radius: 1px;">
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <h1 style="text-align: center;"><strong>Cooking Mama: Cookstar</strong></h1>
+        <div class="d-flex justify-content-center">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cooking-mama-1584651718.jpg?resize=768:*" class="img-fluid" alt="Responsive image">
+        </div>
+        <p style="color: lightgrey;">You Juin</p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Release Date:</strong> March 31</font></p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Platform:</strong> Nintendo Switch</font></p>
+        <a type="button" class="btn btn-outline-dark" href="https://go.redirectingat.com/?id=74968X1525077&xs=1&url=https%3A%2F%2Fwww.gamestop.com%2Fvideo-games%2Fswitch%2Fgames%2Fproducts%2Fcooking-mama-cookstar%2F11100847.html&sref=https%3A%2F%2Fwww.esquire.com%2Flifestyle%2Fa30284795%2Fbest-video-games-2020%2F%3Fpre%3Dlifestyle%252F%26prefix%3Da%26id%3D30284795%26del%3D%26variantId%3D%26post%3D%252Fbest-video-games-2020" target="_blank">Buy</a>
+        <br>
+        <br>
+        <p style="font-family: 'Caladea', serif;"><font size="4">Next to Animal Crossing, this is one of the most exciting games coming out this year. Honestly. Cooking Mama slaps, and I’m so excited to bring a little virtual cooking back into my handheld life on the Switch. It’s a chill series where you play mini games to help the titular Cooking Mama make epic meals. There’s even a vegan mode now, #progress. —C.S.</font></p>
+    </div>
+    </div>
+
+    <div style="padding-top: 20px;">
+        <hr style="border: 2px solid black; border-radius: 1px;">
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <h1 style="text-align: center;"><strong>Resident Evil 3</strong></h1>
+        <div class="d-flex justify-content-center">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/res-evil-2-1576782363.jpg?resize=768:*" class="img-fluid" alt="Responsive image">
+        </div>
+        <p style="color: lightgrey;">You Juin</p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Release Date:</strong> April 3</font></p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Platform:</strong> PS4, Xbox One, PC</font></p>
+        <a type="button" class="btn btn-outline-dark" href="https://aax-us-east.amazon-adsystem.com/x/c/QvcAoCu9BFdkOJLZVIGR6OwAAAFxVMGo6gEAAAFKAQilJL4/https://assoc-redirect.amazon.com/g/r/https://www.amazon.com/Resident-Evil-3-PlayStation-4/dp/B082LKJ33D/?creativeASIN=B082LKJ33D&imprToken=04013dwNsZaJgfIX2zi4yw&slotNum=3&linkCode=ogi&tag=esquire_auto-append-20&ascsubtag=[artid|10054.a.30284795[src|[ch|[lt|" target="_blank">Buy</a>
+        <br>
+        <br>
+        <p style="font-family: 'Caladea', serif;"><font size="4">Resident Evil games continue to get made and remade, again and again, over the years. Capcom’s latest recreation takes aim at the 1999 PS2 game. This time, the zombies look even spookier than before. Somehow after all these years, these games are still good and seriously spooky. —D.N.</font></p>
+    </div>
+    </div>
+
+    <div style="padding-top: 20px;">
+        <hr style="border: 2px solid black; border-radius: 1px;">
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <h1 style="text-align: center;"><strong>Final Fantasy VII</strong></h1>
+        <div class="d-flex justify-content-center">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ff-1576782183.jpg?resize=768:*" class="img-fluid" alt="Responsive image">
+        </div>
+        <p style="color: lightgrey;">You Juin</p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Release Date:</strong> April 10</font></p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Platform:</strong> PS4</font></p>
+        <a type="button" class="btn btn-outline-dark" href="https://aax-us-east.amazon-adsystem.com/x/c/QvcAoCu9BFdkOJLZVIGR6OwAAAFxVMGo6gEAAAFKAQilJL4/https://assoc-redirect.amazon.com/g/r/https://www.amazon.com/Final-Fantasy-VII-Remake-PlayStation-Deluxe/dp/B07SJ2P1XC?creativeASIN=B07SJ2P1XC&imprToken=04013dwNsZaJgfIX2zi4yw&slotNum=4&linkCode=ogi&tag=esquire_auto-append-20&ascsubtag=[artid|10054.a.30284795[src|[ch|[lt|" target="_blank">Pre-order</a>
+        <br>
+        <br>
+        <p style="font-family: 'Caladea', serif;"><font size="4">The seventh entry into the Final Fantasy series is one of the most cherished video games in the history of the industry. We’ve waited years for a remake, and it’s finally here. Let’s hope Square Enix can actually pull it off. —D.N.</font></p>
+    </div>
+    </div>
+    
+    <div style="padding-top: 20px;">
+        <hr style="border: 2px solid black; border-radius: 1px;">
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <h1 style="text-align: center;"><strong>Trials of Mana</strong></h1>
+        <div class="d-flex justify-content-center">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mana-1584652556.jpg?resize=768:*" class="img-fluid" alt="Responsive image">
+        </div>
+        <p style="color: lightgrey;">You Juin</p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Release Date:</strong> April 24</font></p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Platform:</strong> PS4, PC, Nintendo Switch</font></p>
+        <a type="button" class="btn btn-outline-dark" href="https://aax-us-east.amazon-adsystem.com/x/c/QvcAoCu9BFdkOJLZVIGR6OwAAAFxVMGo6gEAAAFKAQilJL4/https://assoc-redirect.amazon.com/g/r/https://www.amazon.com/Trials-Mana-Nintendo-Switch/dp/B07XC3JQJM?creativeASIN=B07XC3JQJM&imprToken=04013dwNsZaJgfIX2zi4yw&slotNum=5&linkCode=ogi&tag=esquire_auto-append-20&ascsubtag=[artid|10054.a.30284795[src|[ch|[lt|" target="_blank">Pre-order</a>
+        <br>
+        <br>
+        <p style="font-family: 'Caladea', serif;"><font size="4">Trials of Mana was never released in the west. After getting my hands on the original last summer, I got a lot more excited about this fully fledged remake. It’s everything we love from the classic NES/SNES-era RPGs with some interesting twists and more action-based combat. The art style looks gorgeous, and the new gameplay follows suit. —C.S.
+
+        </font></p>
+    </div>
+    </div>
+
+    <div style="padding-top: 20px;">
+        <hr style="border: 2px solid black; border-radius: 1px;">
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <h1 style="text-align: center;"><strong>Moving Out</strong></h1>
+        <div class="d-flex justify-content-center">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/moving-out-1584652923.jpg?resize=768:*" class="img-fluid" alt="Responsive image">
+        </div>
+        <p style="color: lightgrey;">You Juin</p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Release Date:</strong> April 28</font></p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Platform:</strong> PS4, Xbox One, PC, Nintendo Switch</font></p>
+        <a type="button" class="btn btn-outline-dark" href="https://aax-us-east.amazon-adsystem.com/x/c/QvcAoCu9BFdkOJLZVIGR6OwAAAFxVMGo6gEAAAFKAQilJL4/https://assoc-redirect.amazon.com/g/r/https://www.amazon.com/Moving-Out-PlayStation-4/dp/B083XVHBMM?creativeASIN=B083XVHBMM&imprToken=04013dwNsZaJgfIX2zi4yw&slotNum=6&linkCode=ogi&tag=esquire_auto-append-20&ascsubtag=[artid|10054.a.30284795[src|[ch|[lt|" target="_blank">Pre-order</a>
+        <br>
+        <br>
+        <p style="font-family: 'Caladea', serif;"><font size="4">From the same team that brought us the friendship-ruining Overcooked comes a new, equally manic title. Moving Out sees players working “together” to frantically pivot, rotate, and angle to make sure a move goes as smoothly as possible. Overcooked is one of the best “co-op” party games out there right now, and Moving Out looks just as promising. These folks know couch co-op; it's the perfect game night title. Maybe not great for a “family friendly” game night however, since Overcooked has caused words I didn't even know I knew to fly out of my mouth. —C.S.</font></p>
+    </div>
+    </div>
+
+    <div style="padding-top: 20px;">
+        <hr style="border: 2px solid black; border-radius: 1px;">
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <h1 style="text-align: center;"><strong>The Last of Us Part II</strong></h1>
+        <div class="d-flex justify-content-center">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/last-of-us-1576782289.jpeg?resize=768:*" class="img-fluid" alt="Responsive image">
+        </div>
+        <p style="color: lightgrey;">You Juin</p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Release Date:</strong> May 29</font></p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Platform:</strong> PS4</font></p>
+        <a type="button" class="btn btn-outline-dark" href="https://aax-us-east.amazon-adsystem.com/x/c/QvcAoCu9BFdkOJLZVIGR6OwAAAFxVMGo6gEAAAFKAQilJL4/https://assoc-redirect.amazon.com/g/r/https://www.amazon.com/Moving-Out-PlayStation-4/dp/B083XVHBMM?creativeASIN=B083XVHBMM&imprToken=04013dwNsZaJgfIX2zi4yw&slotNum=6&linkCode=ogi&tag=esquire_auto-append-20&ascsubtag=[artid|10054.a.30284795[src|[ch|[lt|" target="_blank">Pre-order</a>
+        <br>
+        <br>
+        <p style="font-family: 'Caladea', serif;"><font size="4">The Last of Us is one of the most influential games of the past few decades. Not only has it changed the landscape of the industry—but it’s also legitimately moving. Anticipations are high for this one. —D.N.</font></p>
+    </div>
+    </div>
+
+    <div style="padding-top: 20px;">
+        <hr style="border: 2px solid black; border-radius: 1px;">
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <h1 style="text-align: center;"><strong>Halo Infinite</strong></h1>
+        <div class="d-flex justify-content-center">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/halo-1576782479.jpg?resize=768:*" class="img-fluid" alt="Responsive image">
+        </div>
+        <p style="color: lightgrey;">You Juin</p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Release Date:</strong> Winter 2020</font></p>
+        <p style="font-family: 'Caladea', serif;"><font size="4"><strong>Platform:</strong> Xbox One, Xbox Series X, PC</font></p>
+        <a type="button" class="btn btn-outline-dark" href="https://go.redirectingat.com/?id=74968X1525077&xs=1&url=https%3A%2F%2Fwww.xbox.com%2Fen-US%2Fgames%2Fhalo-infinite&sref=https%3A%2F%2Fwww.esquire.com%2Flifestyle%2Fa30284795%2Fbest-video-games-2020%2F%3Fpre%3Dlifestyle%252F%26prefix%3Da%26id%3D30284795%26del%3D%26variantId%3D%26post%3D%252Fbest-video-games-2020" target="_blank">Get Updates</a>
+        <br>
+        <br>
+        <p style="font-family: 'Caladea', serif;"><font size="4">Hey! They’re still making Halo games! It’s still a thing! The classic shooter that first brought you and your friends into the world of online gaming is coming back for a sixth entry into the main series. Just when we thought it was time to say goodbye to the franchise, Microsoft will unveil yet another promising sequel that will have fans saying “Halo!” (sorry again). —D.N.</font></p>
+    </div>
+    </div>
+
+    <div style="padding-top: 20px;">
+        <hr style="border: 2px solid black; border-radius: 1px;">
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class = "col-md-6">
+            <p>
+                <strong><font size = "5">:Related Story</font></strong>
+            </p>
+            <div class="row">
+                <div class="col-6">
+                <a href="https://www.esquire.com/lifestyle/a25693289/best-video-games-2019/" target="_blank">
+               <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/indexx-1576156640.jpg?crop=1xw:1xh;center,top&resize=300:*">
+            </a>
+            </div>
+            <div class="col-6">
+                <a style="display: inline;" href="https://www.esquire.com/lifestyle/a25693289/best-video-games-2019/" target="_blank">
+                    <span style="color: black;"><strong><font size="4">The 10 Best Video Games of 2019</font></strong></span>
+                 </a>
+            </div>
+            </div>
+            <hr>
+            <hr>
+            <p style="margin-bottom: 0%;"><span style="border-bottom: 1px yellow solid;">DOM NERO</span> <font size="2">Video Editor</font></p>
+            <p><font size="2">Dom Nero is a writer and video editor based out of Astoria, NY.</font></p>
+            <p style="margin-bottom: 0%;"><span style="border-bottom: 1px yellow solid;">CAMERON SHERRILL</span> </p>
+            <p><font size="2">Cameron Sherrill is a designer and writer for Esquire.com, where he covers technology and video games.</font></p>
+        </div>
+    </div>
+    
+    <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+        <span style="font-size: 20px; background-color: white; padding: 0 10px; border: 1px solid black;">
+            <strong>MORE FROM</strong>
+        </span>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <p><strong><font size="8">BEST OF THE 2020 Guide</font></strong></p>
+    </div>
+
+    <div class="row" style="text-align: center;">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-03-22-at-2-35-54-pm-1584902172.png?crop=0.942xw:1.00xh;0.0256xw,0&resize=980:*">
+            <p><font size="5"><strong>The 2020 Movies That Are Streaming Online Early</strong></font></p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-netflix-original-series-2020-1584126720.jpg?crop=1.00xw:1.00xh;0,0&resize=480:*">
+            <p><font size="5"><strong>Best Netflix Original Shows of 2020</strong></font></p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/index-1580163166.jpg?crop=1.00xw:1.00xh;0,0&resize=480:*">
+            <p><font size="5"><strong>The Best Books of 2020 (So Far)</strong></font></p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sad-1583358178.jpg?crop=0.981xw:0.981xh;0,0&resize=480:*">
+            <p><font size="5"><strong>The Best TV Series of 2020 (So Far)</strong></font></p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tv2020-1583517902.jpg?crop=1.00xw:1.00xh;0,0&resize=480:*">
+            <p><font size="5"><strong>Be Sad All of 2020 With This Sad Song Playlist</strong></font></p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-songs-of-2020-so-far-1582318760.jpg?crop=1.00xw:1.00xh;0,0&resize=480:*">
+            <p><font size="5"><strong>The Best Songs of 2020 So Far</strong></font></p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sexiest-movies-2020-1583271122.jpg?crop=1.00xw:1.00xh;0,0&resize=480:*">
+            <p><font size="5"><strong>2020 is Going to Be Full of Sexy Movies</strong></font></p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/index-12-1583264638.jpg?crop=1.00xw:1.00xh;0,0&resize=480:*">
+            <p><font size="5"><strong>The 10 Best Cookbooks of 2020 (So Far)</strong></font></p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-action-movies-2020-1582929456.jpg?crop=1.00xw:1.00xh;0,0&resize=480:*">
+            <p><font size="5"><strong>The 15 Best Action Movies of 2020</strong></font></p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <img width="100%" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-horror-movies-2020-1582838824.jpg?crop=1.00xw:1.00xh;0,0&resize=480:*">
+            <p><font size="5"><strong>The 10 Best Horror Movies of 2020</strong></font></p>
+        </div>
+    </div>
+ </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        $(function (){
+          $(document).scroll(function(){
+            var $nav = $("#mainNavbar")
+            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+           $("#navbarIcon").toggleClass("hidden", $(this).scrollTop() > $nav.height());
+           $("#navbarIcon2").toggleClass("hidden", $(this).scrollTop() < $nav.height());
+            // if($(this).scrollTop() > $nav.height()){
+            //     document.getElementById("navbarIcon").src = "images/game-controller.png";
+            // }else{
+            //     document.getElementById("navbarIcon").src = "images/gamepad.png";
+            // }
+            
+          });
+        });
+      </script>
+</body>
+</html>
